@@ -1,0 +1,40 @@
+// badenertagblatt.ch
+zone "badenertagblatt.ch" {
+        type forward;
+        forwarders {127.0.0.1 port 5353; };
+};
+zone "ls.af" {
+        type forward;
+        forwarders {127.0.0.1 port 5353; };
+};
+
+// netflix.com
+zone "netflix.com" {
+        type forward;
+        forwarders {127.0.0.1 port 5353; };
+};
+
+zone "netflix.net" {
+        type forward;
+        forwarders {127.0.0.1 port 5353; };
+};
+
+zone "nflxext.com" {
+        type forward;
+        forwarders {127.0.0.1 port 5353; };
+};
+
+zone "nflximg.net" {
+        type forward;
+        forwarders {127.0.0.1 port 5353; };
+};
+
+zone "nflxvideo.net" {
+        type forward;
+        forwarders {127.0.0.1 port 5353; };
+};
+
+zone "nflxso.net" {
+        type forward;
+        forwarders {127.0.0.1 port 5353; };
+};
