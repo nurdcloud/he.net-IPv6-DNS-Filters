@@ -8,7 +8,7 @@ This config files are what i use here in Switzerland and i will update the list 
 
 Basic Setup:
 I run a bind DNS server combined with dnsmask on my private network.
-Bind is configured to listen on port 53 as usual and i have set up configured forwarding zones
+Bind is configured to listen on port 53 as usual and i have set up forwarding zones
 as you will find in 'named.conf.local'. 
 
 Dnsmasq is setup to listen on port 5353. Requests to zones as netflix.com will be redirected by
